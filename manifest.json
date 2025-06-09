@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Mute on Tab Switch",
+  "version": "1.0",
+  "description": "Simulates 'm' keypress on YouTube when switching tabs or minimizing/restoring Chrome.",
+  "permissions": ["tabs", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*", "*://*.twitch.tv/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "host_permissions": ["*://*.youtube.com/*", "*://*.twitch.tv/*"]
+} 
