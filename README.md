@@ -1,3 +1,10 @@
+> **Notice**
+>
+> This repository has been archived and is no longer maintained.
+> It is read-only and will not receive updates or bug fixes.
+
+
+
 # Auto Mute on Tab Switch (YouTube & Twitch)
 
 This Chrome extension automatically simulates pressing the `m` key on YouTube and Twitch tabs when you:
