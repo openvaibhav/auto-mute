@@ -1,7 +1,7 @@
 > **Notice**
 >
 > This repository has been archived and is no longer maintained.
-> It is read-only and will not receive updates or bug fixes.
+> It is read-only thou it receive updates or bug fixes if my mind changes.
 
 
 
